@@ -35,7 +35,6 @@ h2, h3 {
 
 p {
     font-size: 15px;
-    padding-left: 30px;
     font-family: sans-serif;
 }
 
@@ -372,8 +371,13 @@ input[type=submit]:hover{
         margin: 0;
         width: 100%;
     }
-    footer, .bottom-container {
+    footer {
         width: 100%;
     }
-   
+    .bottom-container {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
 }
