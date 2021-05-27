@@ -372,7 +372,7 @@ input[type=submit]:hover{
         margin: 0;
         width: 100%;
     }
-    footer {
+    footer, .bottom-container {
         width: 100%;
     }
    
