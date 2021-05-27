@@ -253,8 +253,8 @@ input[type=submit]:hover{
 
     #banner {
         width: 100%;
-        height: auto;;
-        margin: auto;
+        height: auto;
+        margin: 0;
         display: block;
         
     }
