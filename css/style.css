@@ -252,13 +252,14 @@ input[type=submit]:hover{
     #banner {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: auto;
         display: block;
         
     }
     h1 {
-        font-size: 3.5em;
+        font-size: 3em;
         width: 100%;
+        margin: auto;
     } 
     nav {
         width: 100%;
@@ -269,9 +270,9 @@ input[type=submit]:hover{
     }
     #presentation {
         width: 100%;
+        margin: 0;
         margin-top: 1em;
         font-size: 1.7em;
-	margin: auto;
     }
     #cards{
         margin: 0;
@@ -300,6 +301,7 @@ input[type=submit]:hover{
 
 
 /**aca termina tamaño tablet y empieza tamaño celular **/
+
 
 
 @media screen and (max-width: 699px) {
@@ -334,11 +336,14 @@ input[type=submit]:hover{
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
+
     }
     #cards {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
     #card1{
         width: 100%;
@@ -369,16 +374,20 @@ input[type=submit]:hover{
     
     h2  {
         text-align: center;
-        margin: 0;
+        margin: auto;
         width: 100%;
     }
     footer {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .bottom-container {
         width: 100%;
         height: auto;
         padding: 0;
-        margin: 0;
+        margin: auto;
     }
+
+   
 }
