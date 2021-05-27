@@ -272,6 +272,7 @@ input[type=submit]:hover{
         width: 100%;
         margin-top: 1em;
         font-size: 1.7em;
+	margin: auto;
     }
     #cards{
         margin: 0;
