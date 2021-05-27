@@ -303,7 +303,6 @@ input[type=submit]:hover{
 /**aca termina tamaño tablet y empieza tamaño celular **/
 
 
-
 @media screen and (max-width: 699px) {
     .col-1, .col-2, input[type=submit] {
       width: 100%;
@@ -314,17 +313,19 @@ input[type=submit]:hover{
         height: 100%;
         display: block;
         flex-flow: column wrap;
-	margin: 0;
     }
     #banner {
         width: 100%;
+        height: 100%;
         margin: auto;
+        padding: 0;
     }
     h1 {
-        font-size: 2.5em;
+        font-size: 3rem;
         width: 100%;
-        margin: 0;
-    } 
+        margin: auto;
+        padding: 0;
+    }
     #presentation {
         font-size: 1.3em;
         width: 90%;
@@ -369,9 +370,10 @@ input[type=submit]:hover{
     h2  {
         text-align: center;
         margin: 0;
-	width: 100%;
+        width: 100%;
     }
-    
+    footer {
+        width: 100%;
+    }
+   
 }
-
-
